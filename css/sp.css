@@ -1,0 +1,223 @@
+@media only screen and (max-width: 768px) {
+html {
+	font-size : 87.5%;
+}
+header {
+	width: 100%;
+	height: auto;
+	text-align:left;
+}
+.navbar {
+	margin-bottom:0;
+}
+#navbar {
+	width: auto;
+	height: auto;
+	position: relative;
+	left: auto;
+	top:auto;
+	z-index:1;
+}
+#navbar ul {
+	width: auto;
+	height: auto;
+	/*margin: 7.5px -15px;*/
+list-style: none;
+	line-height: normal;
+}
+#navbar ul li {
+	text-align:left;
+}
+.navbar-fl .navbar-nav > li > a {
+	padding:15px 30px;
+	border-left: none;
+}
+.navbar-fl .navbar-nav > li > a > small {
+	display:inline;
+	padding-left:1em;
+}
+.navbar-fl .navbar-collapse, .navbar-fl .navbar-form {
+	clear: both;
+}
+#program_list {
+	width: 100%;
+	height: 100%;
+}
+div.curriculum div {
+	max-width: 100%;
+	clear:both;
+	margin-bottom:10px;
+	text-align: left;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width /***/:auto;
+　
+}
+.col-sm-4, .col-sm-8, .col-xs-12 {
+	text-align:center;
+}
+#indexUpper {
+	padding-bottom: 10px;
+}
+#indexLower .col-sm-4, #indexLower .col-sm-8, #indexLower .col-xs-12 {
+	text-align:left;
+}
+header p#topDescription {
+	text-align:left;
+	position:static;
+	font-size:80%;
+}
+header .telephone {
+	font-size:1.4em;
+	margin-left:10px;
+	padding-left:50px;
+	background:url(../images/icon_telephone_sp.gif) no-repeat left 0;
+	line-height:1em;
+	text-align:left;
+}
+header .telephone-two {
+	font-size:1.1em;
+	margin-left:10px;
+	padding:3px 0 0 50px;
+	background:url(../images/icon_telephone_sp.gif) no-repeat left 0;
+	line-height:1.2em;
+	text-align:left;
+}
+#index_concept p, #whatsNew {
+	text-align: left;
+}
+#whatsNew {
+	height:200px;
+}
+#whatsNew ul{
+	width: auto;
+	height: 148px;
+}
+#whatsNew li {
+	width: auto;
+}
+#content h1 {
+	font-size:1.2em;
+	min-height:2.3em;
+	line-height:1em;
+}
+#content h1 span {
+	font-size:0.8em;
+}
+#content h2 {
+	font-size:1.15em;
+	line-height:1em;
+	min-height:1.8em;
+	margin-top:0.7em;
+}
+#content h3, #content h4 {
+	font-size:1.1em;
+}
+#footer-outer-block {
+	position:static;
+	font-size:0.9em;
+}
+#footer-area {
+	max-width:320px;
+}
+.footer-segment {
+	width:100%;
+	text-align:center;
+	margin-right:0;
+	clear:left;
+}
+#copyright {
+	text-align:center;
+}
+dl.application {
+	width: auto;
+}
+strong.catch {
+	font-size:1em;
+}
+
+.mw_wp_form span.control {
+  margin: 0 0 7px 0;
+  padding-top: 0.5em;
+}
+.mw_wp_form span.control span.error {
+  margin: 0;
+}
+
+@media screen and (min-width:429px) and (max-width:960px) {
+header h1 {
+	font-size:28px;
+	transform: scale( 1, 1 );
+}
+heder h1 small {
+	display: block;
+}
+header .h1 {
+	display:none;
+}
+header .col-xs-2 {
+	margin:0;
+	padding:0;
+}
+header .col-xs-12 {
+	text-align: left;
+}
+}
+ @media screen and (max-width:428px) {
+header h1 {
+	display:none;
+}
+header .h1 {
+	margin:0;
+	padding:0;
+	font-size:21px;
+	font-family: 'Noto Sans Japanese', sans-serif;
+	letter-spacing:-0.1em;
+	font-weight:700;
+	line-height:1;
+}
+header p#topDescription {
+	margin-bottom:0.5em;
+	padding-top:0.5em;
+	line-height:1.3em;
+}
+header .col-xs-2 {
+	margin:0;
+	padding:0;
+}
+#whatsNew {
+	height:330px;
+}
+#whatsNew ul{
+	width: auto;
+	height: 278px;
+	-webkit-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+input#address2,input#address3,input#mail,textarea#comment {
+	width: 100%;
+}
+p.thankyou {
+	padding: 15px 0;
+}
+}
+
+
+/* index-banner
+---------------------------------------------------- */
+
+.index-banner {
+	font-size:0.9em;
+	margin:0 15px 15px 15px;
+}
+
+/* youtube
+---------------------------------------------------- */
+.youtube-pc {
+	display: none;
+}
+.youtube-sp {
+	display: block;
+}

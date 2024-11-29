@@ -1,0 +1,16 @@
+/*
+Theme Name: First Learning Kitaurawa
+Theme URI: http://www.exsight.co.jp
+Description: ファーストラーニング北浦和用のWordPressテンプレート
+Version: 1.0
+Author: Exsight, Inc.
+Author URI: http://www.exsight.co.jp
+*/
+
+/* Import Common CSS */
+
+@import url("css/base.css");
+@import url("css/pc.css");
+@import url("css/sp.css");
+@import url("css/print.css")print;
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);

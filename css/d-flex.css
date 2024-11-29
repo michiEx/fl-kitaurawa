@@ -1,0 +1,107 @@
+/* -------------------------------------------------------------------------- */
+
+// For bootstrap 3
+.d-flex {
+    display: flex;
+    /* alignment */
+    &.flex-row {
+        flex-direction: row;
+    }
+    &.flex-row-reverse {
+        flex-direction: row-reverse;
+    }
+    &.flex-column {
+        flex-direction: column;
+    }
+    &.flex-column-reverse {
+        flex-direction: column-reverse;
+    }
+    /* justify content */
+    &.justify-content-start {
+        justify-content: start;
+    }
+    &.justify-content-end {
+        justify-content: end;
+    }
+    &.justify-content-center {
+        justify-content: center;
+    }
+    &.justify-content-between {
+        justify-content: space-between;
+    }
+    &.justify-content-around {
+        justify-content: space-around;
+    }
+    /* align items */
+    &.align-items-start {
+        align-items: flex-start;
+    }
+    &.align-items-end {
+        align-items: flex-end;
+    }
+    &.align-items-center {
+        align-items: center;
+    }
+    &.align-items-baseline {
+        align-items: baseline;
+    }
+    &.align-items-stretch {
+        align-items: stretch;
+    }
+    /* align content */
+    &.align-content-start {
+        align-content: flex-start;
+    }
+    &.align-content-end {
+        align-content: flex-end;
+    }
+    &.align-content-center {
+        align-content: center;
+    }
+    &.align-content-around {
+        align-content: space-around;
+    }
+    &.align-content-between {
+        align-content: space-between;
+    }
+    &.align-content-stretch {
+        align-content: stretch;
+    }
+    /* wrapping */
+    &.flex-wrap {
+        flex-wrap: wrap;
+    }
+    &.flex-nowrap {
+        flex-wrap: nowrap;
+    }
+    /* self align */
+    .align-self-start {
+        align-self: flex-start;
+    }
+    .align-self-end {
+        align-self: flex-end;
+    }
+    .align-self-center {
+        align-self: center;
+    }
+    .align-self-baseline {
+        align-self: baseline;
+    }
+    .align-self-stretch {
+        align-self: stretch;
+    }
+    /* fill equal spaces */
+    .flex-fill {
+        flex: 1 1 auto !important;
+    }
+    /* order */
+    @for $i from 0 through 12 {
+        .order-#{$i} {
+            order: $i;
+        }
+    }
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
