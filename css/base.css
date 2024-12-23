@@ -702,26 +702,6 @@ p.top-description {
 h5, h6 {
   font-size: 14px;
 }
-@media screen and (max-width: 767.98px) {
-  h1 {
-    font-size: 22px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 18px;
-  }
-  h4 {
-    font-size: 16px;
-  }
-  h5 {
-    font-size: 15px;
-  }
-  h6 {
-    font-size: 14px;
-  }
-}
 .alignleft, img.alignleft {
 	display: inline;
 	float: left;
@@ -826,6 +806,14 @@ footer a:hover {
 #program_list h2 small,
 #program_list h3 small {
 	font-weight: bold;
+}
+@media screen and (max-width: 767.98px) {
+  #program_list h2 {
+    font-size: 24px !important;
+  }
+  #program_list h3 {
+    font-size: 18px;
+  }
 }
 #program_list img {
 	border-radius: 1em;
