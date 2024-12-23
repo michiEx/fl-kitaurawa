@@ -6,23 +6,14 @@
 <title>ファーストラーニング北浦和 ｜ さいたま北浦和のプリスクール・1歳からの親子英語・幼児英語・こども英会話</title>
 <meta name="keywords" content="プリスクール、インターナショナルプリスクール、プレスクール、幼児教育、幼児教室、英語保育、幼児英語、子供英会話、親子英語、幼児、子ども、英語、教育、クリエイティブ・カリキュラム、埼玉県、さいたま市、北浦和、南与野" />
 <meta name="description" content="子どもたちがはじめて出会う学習の場。国際基準の「クリエイティブ・カリキュラム」をベースに、プリスクール・親子英語・幼児英語教室など多彩なプログラムと、外国人講師との楽しい遊びを通して、国際社会への適応力、意欲的に学び続ける力を育みます。北浦和駅 (京浜東北線) 徒歩8分、南与野駅(埼京線) 徒歩10分" />
-<!-- Google tag (gtag.js) --> 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-59EGXNRGEV"></script> 
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-59EGXNRGEV');
-  gtag('config', 'UA-4887129-36');
-</script><!--[if IE]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
-<script src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/js/bootstrap.min.js"></script> 
-<script src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/js/seasonal-image.js"></script>
+<script src="js/seasonal-image.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-<link rel="shortcut icon" href="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/favicon.ico">
-  
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/favicon.ico">
+
 <!--Font Awesome ================================================== -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel='dns-prefetch' href='//s.w.org' />
@@ -32,237 +23,329 @@
 		</script>
 </head>
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div id="wrapper"><!-- #wrapper -->
-  <header><!-- header -->
+<div id="wrapper">
+<!-- #wrapper -->
+<header>
+  <div class="top-bar">
     <div class="container">
       <div class="row">
-        <div class="col-sm-8 col-xs-12">
-          <p id="topDescription">さいたま北浦和のインターナショナルプリスクール・こども英会話・親子英語<span class="hidden-xs"><br>
+        <div class="col-md-9">
+          <p class="top-description">さいたま北浦和のインターナショナルプリスクール・こども英会話・親子英語<span class="hidden-xs"> <br>
             - アメリカでNO.1のカリキュラムを基本にした幼児プログラム</span></p>
-          <h1 class="hidden-xs" style="margin-bottom:8px;"><a href="/"><img src="logo.png" width="263" height="90" alt="ファーストラーニング北浦和" style="width:263px;height:90px;"/></a></h1>
         </div>
-        <div class="col-sm-4 hidden-xs" style="position:relative;">
-          <p class="text-right" style="position:absolute;right:0;top:60px;"><a href="https://www.firstlearning-kitaurawa.com/contact"><img  src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/btn-header.png" width="" height="" class="img-responsive"></a></p>
-          <p class="navbar-text telephone" style="position:absolute;right:0;top:120px">048-762-3739<span>受付時間：月～金10:00～17:30</span></p>
+        <div class="col-md-3">
+          <p class="navbar-text telephone">048-762-3739<span>受付時間：月～金10:00～17:30</span></p>
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-inverce navbar-fl" role="navigation"><!-- top nav -->
-      <div class="navbar-header visible-xs">
-        <p style="float:left;margin-top:0;padding-left:10px;"><a href="/"><img src="logo.png" width="263" height="90" alt="ファーストラーニング北浦和" style="width:263px;height:90px;"/></a></p>
-        <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">ナビゲーション</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+  </div>
+  <nav class="navbar navbar-primary">
+    <div class="container"> 
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="240" height="84" class="img-responsive" alt=""/></a>
       </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class=""><a href="https://www.firstlearning-kitaurawa.com/">Home<small>ホーム</small></a></li>
-          <li class="hidden-xs"><a href="https://www.firstlearning-kitaurawa.com/program/music-movement/">Program<small>プログラム</small></a></li>
-          <li class="dropdown visible-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Program<small>プログラム<span class="caret"></span></small></a>
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden-md"><a href="https://www.firstlearning-kitaurawa.com/">Home</a></li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Program<small>プログラム<span class="caret"></span></small></a>
             <ul class="dropdown-menu" role="menu">
-              <li class=""><a href="https://www.firstlearning-kitaurawa.com/program/music-movement/">Music & Movement / ミュージック＆ムーブメント</a></li>
-              <li class=""><a href="https://www.firstlearning-kitaurawa.com/program/preschool/">Preschool / プリスクール</a></li>
-              <li class=""><a href="https://www.firstlearning-kitaurawa.com/program/preschool-advance/">Preschool Advance / プリスクールアドバンス（年少児クラス）</a></li>
-              <li class=""><a href="https://www.firstlearning-kitaurawa.com/program/kinder-school/">Kinder School / キンダースクール</a></li>
-              <li class=""><a href="https://www.firstlearning-kitaurawa.com/program/special-event/">Special Events / スペシャルイベント</a></li>
+              <li class=""><a href="https://www.firstlearning-kitaurawa.com/program/music-movement/"><span>Music & Movement / </span>ミュージック＆ムーブメント</a></li>
+              <li class=""><a href="https://www.firstlearning-kitaurawa.com/program/preschool/"><span>Preschool / </span>プリスクール</a></li>
+              <li class=""><a href="https://www.firstlearning-kitaurawa.com/program/preschool-advance/"><span>Preschool Advance / </span>プリスクールアドバンス</a></li>
+              <li class=""><a href="https://www.firstlearning-kitaurawa.com/program/kinder-school/"><span>Kinder School / </span>キンダースクール</a></li>
+              <li class=""><a href="https://www.firstlearning-kitaurawa.com/program/special-event/"><span>Special Events / </span>スペシャルイベント</a></li>
             </ul>
           </li>
-          <li class="hidden-xs"><a href="https://www.firstlearning-kitaurawa.com/info/campain/">Information<small>スクール情報</small></a></li>
-          <li class="dropdown visible-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Information<small>スクール情報<span class="caret"></span></small></a>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Information<small>スクール情報<span class="caret"></span></small></a>
             <ul class="dropdown-menu" role="menu">
-              <li class=""><a href="https://www.firstlearning-kitaurawa.com/info/campain/">Special Offer / イベント＆キャンペーン情報</a></li>
-              <li class=""><a href="https://www.firstlearning-kitaurawa.com/info/school_info/">Message from School / スクールからのメッセージ</a></li>
-              <li class=""><a href="https://www.firstlearning-kitaurawa.com/info/application/">About Enrollment / ご入会までの流れ</a></li>
-              <li class=""><a href="https://www.firstlearning-kitaurawa.com/info/staff/">Our Team / スタッフ紹介</a></li>
-              <li class=""><a href="https://www.firstlearning-kitaurawa.com/info/faq/">FAQ / よくある質問</a></li>
+              <li class=""><a href="https://www.firstlearning-kitaurawa.com/info/campain/"><span>Special Offer / </span>イベント＆キャンペーン情報</a></li>
+              <li class=""><a href="https://www.firstlearning-kitaurawa.com/info/school_info/"><span>Message from School / </span>スクールからのメッセージ</a></li>
+              <li class=""><a href="https://www.firstlearning-kitaurawa.com/info/application/"><span>About Enrollment / </span>ご入会までの流れ</a></li>
+              <li class=""><a href="https://www.firstlearning-kitaurawa.com/info/staff/"><span>Our Team / </span>スタッフ紹介</a></li>
+              <li class=""><a href="https://www.firstlearning-kitaurawa.com/info/faq/"><span>FAQ / </span>よくある質問</a></li>
             </ul>
           </li>
           <li class=""><a href="https://www.firstlearning-kitaurawa.com/access/">Access<small>アクセス</small></a></li>
           <li class=""><a href="https://www.firstlearning-kitaurawa.com/freelesson/">Free Trial<small>無料体験</small></a></li>
-          <li class=""><a href="https://www.firstlearning-kitaurawa.com/contact/">Contact<small>無料体験申込･お問合せ</small></a></li>
-          <li class="visible-xs"><a class="navbar-brand tel-link telephone" href="tel:0487623739">048-762-3739<span>受付時間：月～金10:00～17:00</span></a></li>
-          <li class="visible-xs"><a href="https://www.firstlearning-kitaurawa.com/contact"><img  src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/btn-header.png" width="" height="" class="img-responsive"></a></li>
-        </ul></div>
-      <!-- navbar --> 
-    </nav>
-    <!-- end of top nav --> 
-    
-    
-  </header>
-  <div class="container">
-    <div class="row">
-      <div id="carousel-example-generic" class="carousel-fade carousel slide" data-ride="carousel"> 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active"> <a href="info/campain#campain"><img src="images/index-image.jpg" alt="週１回から通える国際基準のインターナショナルプリスクール" /></a>
-            <div class="carousel-caption"> ... </div>
+          <li class="button-container"> <a href="/contact/" class="btn btn-primary btn-round"> Contact<small>無料体験申込･お問合せ</small> </a> </li>
+          <li class="visible-sm visible-xs"><a class="telephone">048-762-3739<span>受付時間：月～金10:00～17:30</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- header end -->
+</header>
+  <div class="carousel-fade carousel slide" data-interval="3600" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="item active"> <a href="freelesson"><img src="https://www.firstlearning-kitaurawa.com/wp-content/uploads/2024/12/index-image.jpg" alt="週１回から通える国際基準のインターナショナルプリスクール" /></a> </div>
+      <div class="item"> <a href="esl-international"><img src="https://www.firstlearning-kitaurawa.com/wp-content/uploads/2024/12/index-image2.jpg" alt="小学生（帰国子女）クラス随時受付中" /></a> </div>
+    </div>
+  </div>
+<section id="main">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p style="text-align:center;text-decoration: none;background-color:#ff9900;padding:16px 24px;border-radius:50px;margin-bottom:0;"><a href="program/" style="text-decoration: none;color:#fff;font-weight:bold;font-size:1.25em;">\\ 2025年度入園児募集 //<br class="visible-xs">
+            International school Kinder class<br class="visible-xs">
+            全日制英語幼稚園クラス 特別見学会のご案内 <i class="fa-solid fa-child-reaching" style="font-size:1.5em;"></i></a></p>
+        </div>
+      </div>
+    </div>
+  <div id="program_list"><!-- #program_list -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Program <small>プログラム</small></h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-15 col-sm-6 panel" style="padding-bottom: 15px;"><a href="program/music-movement">
+          <div class="panel-heading"><img src="images/program_mm.jpg" class="img-responsive" alt="ミュージック＆ムーブメント" title="ミュージック＆ムーブメント">
+            <h3>Music &amp; Movement<br>
+              <small>ミュージック＆ムーブメント<br>
+              0～2歳児＋保護者（親子クラス）</small></h3>
           </div>
-          <div class="item"> <a href="info/campain"><img src="images/index-image2.jpg" alt="帰国子女クラス随時受付中" /></a>
-            <div class="carousel-caption"> ... </div>
+          </a> </div>
+        <div class="col-sm-15 col-sm-6 panel" style="padding-bottom: 15px;"><a href="program/preschool">
+          <div class="panel-heading"><img src="images/program_preschool.jpg" class="img-responsive" alt="プリスクール" title="プリスクール">
+            <h3>Preschool<br>
+              <small>プリスクール<br>
+              2～3歳（未就園児）</small></h3>
+          </div>
+          </a> </div>
+        <div class="col-sm-15 col-sm-6 panel" style="padding-bottom: 15px;"><a href="program/preschool-advance">
+          <div class="panel-heading"><img src="images/program_advance.jpg" class="img-responsive" alt="プリスクールアドバンス" title="プリスクールアドバンス">
+            <h3>Preschool Advance<br>
+              <small>プリスクールアドバンス<br>
+              幼稚園年少児</small></h3>
+          </div>
+          </a> </div>
+        <div class="col-sm-15 col-sm-6 panel" style="padding-bottom: 15px;"><a href="program/kinder-school">
+          <div class="panel-heading"><img src="images/program_kinder.jpg" class="img-responsive" alt="キンダースクール" title="キンダースクール">
+            <h3>Kinder School<br>
+              <small>キンダースクール<br>
+              幼稚園 年中･年長 - 小学1年生</small></h3>
+          </div>
+          </a> </div>
+        <div class="col-sm-15 col-sm-6 panel" style="padding-bottom:15px;"><a href="esl-international">
+          <div class="panel-heading"><img src="images/program_esl.jpg" class="img-responsive" alt="ESL International 小学生 英語学童保育スクール" title="ESL International 小学生 英語学童保育スクール">
+            <h3>ESL International<br>
+              <small>小学生向け英会話スクール<br>
+              初級・中級・帰国子女クラス</small></h3>
+          </div>
+          </a> </div>
+      </div>
+    </div>
+  </div>
+  <section style="background-color:var(--bg-light);padding:48px 16px;">
+    <div class="container">
+      <div class="row">
+        <div id="news" class="col-md-8">
+          <h2>NEWS <small>新着情報</small></h2>
+          <!--<dl class="news">
+            <dt>2025.01.01</dt>
+            <dd><strong>新年スペシャルキャンペーン実施中（1月30日まで）</strong><br />
+              <a href="info/campain">この期間にご入会いただくと、入会金50%OFF！教室見学(月曜日～土曜日)＆好評の無料体験(しかも2回)も随時受付中です♪ <a href="info/campain#campain">詳細はこちらをご覧ください。</a></a> </dd>
+          </dl>-->
+          <dl class="news">
+            <dt>2024.12.09</dt>
+            <dd><a href="info/campain"><strong>インターナショナルプリスクール 全日制英語幼稚園 クラス見学会のご案内</strong><br>
+              2025年度入園児募集中の幼稚園クラスの特別見学会を開催します。詳細はキャンペーン情報ページをご覧ください。</a></dd>
+          </dl>
+          <dl class="news">
+            <dt>2024.11.30</dt>
+            <dd><a href="esl-international"><strong>小学生（帰国子女）クラス随時受付中！</strong><br>
+              日常での英会話をキープ､そしてスキルアップを目指すクラスです。週1からでも入校できます。</a> </dd>
+          </dl>
+          <dl class="news">
+            <dt>2024.11.25</dt>
+            <dd><strong>12月21日（土）クリスマスパーティー開催決定♪</strong><br>
+              多数のお申込みありがとうございます。定員に達したため、ご予約受付終了しました。次回のイベントもお楽しみに！！</dd>
+          </dl>
+          <dl class="news">
+            <dt>2024.09.20</dt>
+            <dd><a href="info/staff"><strong>スタッフ紹介ページを更新しました！</strong><br>
+              先生たちからのメッセージもあるので、ぜひチェックしてみてくださいね♪</a> </dd>
+          </dl>
+          <dl class="news">
+            <dt>2021.02.12</dt>
+            <dd><a href="info/campain"><strong>全日制英語幼稚園 4月より新規開校！</strong><br>
+              入園希望者受付中です！</a> </dd>
+          </dl>
+          <dl class="news">
+            <dt>2018.11.12</dt>
+            <dd><strong>早朝･夕方延長あずかり保育開始しました｡ </strong><br />
+              早朝(9:00)･･･夕方(16:00)まで<br>
+              <strong>出迎えサービス開始しました｡ </strong><br />
+              出迎えサービス開始しました｡ ご指定の場所(保育園･幼稚園･他)へスタッフがお迎えに上がります｡ </dd>
+          </dl>
+          <dl class="news">
+            <dt>2018.09.01</dt>
+            <dd><strong>国際基準のプリスクール「ファーストラーニング北浦和」オープン！無料体験レッスン開催！</strong><br />
+              2018年9月18日に「ファーストラーニング北浦和」がオープン致します。M&amp;M（親子クラス）、プリスクール、プリスクールアドバンスの生徒を募集！<br />
+              <a href="info/campain">詳細はキャンペーンページをご覧ください。</a> </dd>
+          </dl>
+        </div>
+        <div class="col-md-4">
+          <hr class="visible-sm visible-xs" style="border:3px solid #ffefdd;">
+          <h2>Pick Up! <small>ピックアップ情報</small></h2>
+          <p><img src="/wp-content/uploads/2024/12/banner_international-school.jpg" alt="全日制英語幼稚園 年少児クラ募集" width="" height="" class="img-responsive aligncenter" style="border-radius:16px;" /></p>
+          <p><strong>来年2025年4月新幼稚園生になられる､お子様へ<br>
+            Internartional Preschool Kinder 1 Class（年少児クラス）の特別見学会のご案内です。</strong></p>
+          <ul class="vertical" style="margin-bottom: 8px;">
+            <li><strong>特別見学会期間</strong>：2025年1月9日～31日</li>
+            <li><strong>見学曜日</strong>：火曜日～土曜日 (毎日受付いたします｡)</li>
+            <li><strong>見学時間</strong>：11:00～11:45</li>
+            <li><strong>対象クラス</strong>：Kinder 1 Class (年少クラス)  / 授業時間 10:00～14:00 (4時間)</li>
+          </ul>
+          <p><strong>年中・年長クラスへの途中入会ご希望のお子様の見学会もできますので、お気軽にお問い合わせください｡</strong></p>
+          <p><strong style="font-size:1.25em;"><i class="fa-solid fa-square-phone" style="color: var(--primary);"></i> 048-762-3739</strong> (受付時間：月～金10:00～17:30)</p>
+          <p><a href="/contact" class="btn btn-normal"><i class="fa-solid fa-envelope"></i> お問い合わせフォーム</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container-fluid" style="padding: 48px 0">
+    <div class="container">
+      <div class="row">
+        <h2>MOVIE <small>動画で知るFLKU</small></h2>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div style="background-color:var(--primary);padding:24px;border-radius: 16px;">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sljYCAlAjdc?si=1CNqfLNl5RwyI_v7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <section id="program_list"><!-- #program_list -->
-    <div class="container-fluid">
-      <div class="row" style="padding-top: 15px;">
-        <div class="col-sm-15 col-xs-6" style="padding-bottom: 15px;"><a href="program/music-movement"><img src="https://www.firstlearning-kitaurawa.com/wp-content/uploads/2019/01/index_program_mm.png" onMouseOver="this.src='/wp-content/uploads/2019/01/index_program_mm_o.png'" onMouseOut="src='/wp-content/uploads/2019/01/index_program_mm.png'" class="img-responsive hidden-xs" alt="ミュージック＆ムーブメント" title="ミュージック＆ムーブメント"><img src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/index_program_mm.png" class="img-responsive visible-xs" alt="ミュージック＆ムーブメント" title="ミュージック＆ムーブメント"></a></div>
-        <div class="col-sm-15 col-xs-6" style="padding-bottom: 15px;"><a href="program/preschool"><img src="https://www.firstlearning-kitaurawa.com/wp-content/uploads/2019/01/index_program_preschool.png" onMouseOver="this.src='/wp-content/uploads/2019/01/index_program_preschool_o.png'" onMouseOut="src='/wp-content/uploads/2019/01/index_program_preschool.png'" class="img-responsive hidden-xs" alt="プリスクール" title="プリスクール"><img src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/index_program_preschool.png" class="img-responsive visible-xs" alt="プリスクール" title="プリスクール"></a></div>
-        <div class="col-sm-15 col-xs-6" style="padding-bottom: 15px;"><a href="program/preschool-advance"><img src="https://www.firstlearning-kitaurawa.com/wp-content/uploads/2019/01/index_program_advance.png" onMouseOver="this.src='/wp-content/uploads/2019/01/index_program_advance_o.png'" onMouseOut="src='/wp-content/uploads/2019/01/index_program_advance.png'" class="img-responsive hidden-xs" alt="プリスクールアドバンス" title="プリスクールアドバンス"><img src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/index_program_advance.png" class="img-responsive visible-xs" alt="プリスクールアドバンス" title="プリスクールアドバンス"></a></div>
-        <div class="col-sm-15 col-xs-6" style="padding-bottom: 15px;"><a href="program/kinder-school"><img src="https://www.firstlearning-kitaurawa.com/wp-content/uploads/2019/01/index_program_kinder.png" onMouseOver="this.src='/wp-content/uploads/2019/01/index_program_kinder_o.png'" onMouseOut="src='/wp-content/uploads/2019/01/index_program_kinder.png'" class="img-responsive hidden-xs" alt="キンダースクール" title="キンダースクール"><img src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/index_program_kinder.png" class="img-responsive visible-xs" alt="キンダースクール" title="キンダースクール"></a></div>
-        <div class="col-sm-15 col-xs-6 last" style="padding-bottom:15px;"><a href="esl-international"><img src="https://www.firstlearning-kitaurawa.com/wp-content/uploads/2023/12/index_program_esl.png" onMouseOver="this.src='/wp-content/uploads/2023/12/index_program_esl_o.png'" onMouseOut="src='/wp-content/uploads/2023/12/index_program_esl.png'" class="img-responsive hidden-xs" alt="ESL International 小学生 英語学童保育スクール" title="ESL International 小学生 英語学童保育スクール"><img src="https://www.firstlearning-kitaurawa.com/wp-content/uploads/2023/11/index_program_esl_sp.png" class="img-responsive visible-xs" alt="ESL International 小学生 英語学童保育スクール" title="ESL International 小学生 英語学童保育スクール"></a></div>
+  <div class="container-fluid" style="background-color:var(--bg-light);padding: 48px 0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>INSTAGRAM</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"> </div>
       </div>
     </div>
-  </section>
-  <section id="main"> 
-    <!-- #main content and sidebar area -->
-    <section id="content_index"> 
-      <!-- #content -->
-      <div id="indexUpper">
-        <div id="index_concept" class="col-xs-12" data-path="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/">
-          <div id="whatsNew">
-            <h2><img class="img-responsive" src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/indexWhatsnew.gif" alt="新着情報 What's New" /></h2>
-            <ul>
-              <li>2024.10.03<br />
-                <strong>Halloweenコスチュームパーティ開催決定🎃✨</strong><br>
-                10月26日(土)北浦和駅東口カルタスホール♪ <a href="info/campain">詳細はこちらをご覧ください。</a><br>
-              </li>
-              <li>2024.10.01<br />
-                <strong>秋のスペシャルキャンペーン実施中（11月30日まで）</strong><br>
-                この期間にご入会いただくと、入会金50%OFF！教室見学(月曜日～土曜日)＆好評の無料体験(しかも2回)も随時受付中です♪ <a href="info/campain#campain">詳細はこちらをご覧ください。</a><br>
-              </li>
-              <li>2024.09.20<br />
-                <strong>スタッフ紹介ページを更新しました！</strong><br>
-                先生たちからのメッセージもあるので、ぜひチェックしてみてくださいね♪ <a href="info/staff">詳細はこちらをご覧ください。</a><br>
-              </li>
-              <li>2022.11.01<br />
-                <strong>帰国子女クラス随時受付中！</strong><br>
-                日常での英会話をキープ､そしてスキルアップを目指すクラスです。週1からでも入校できます。 <a href="info/campain">詳細はこちらをご覧ください。</a></li>
-              <li>2021.02.12<br />
-                <strong>全日制英語幼稚園 4月より新規開校！</strong>入園希望者受付中です！<a href="info/campain">詳細はこちらをご覧ください。</a></li>
-              <li>2018.11.12<br />
-                <strong>早朝･夕方延長あずかり保育開始しました｡ </strong><br />
-                早朝(9:00)･･･夕方(16:00)まで</li>
-              <li><strong>出迎えサービス開始しました｡ </strong><br />
-                出迎えサービス開始しました｡ ご指定の場所(保育園･幼稚園･他)へスタッフがお迎えに上がります｡</li>
-              <li>2018.09.01<br />
-                <strong>国際基準のプリスクール「ファーストラーニング北浦和」オープン！無料体験レッスン開催！</strong><br />
-                2018年9月18日に「ファーストラーニング北浦和」がオープン致します。M&amp;M（親子クラス）、プリスクール、プリスクールアドバンスの生徒を募集！<br />
-                <a href="info/campain">詳細はキャンペーンページをご覧ください。</a> </li>
-            </ul>
-          </div>
-          <img class="img-responsive" src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/indexConcept.gif" alt="私たちのカリキュラムの目標は、子どもたちが熱意にあふれる意欲的な学習者になることです。" />
-          <p><img loading="lazy" style="padding-right: 5px; float: left;" src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/treeTopConcept01.gif" alt="" width="52" height="65" />考える力、感情表現の豊かさ、自ら問題解決する力、タフネス、そして創造性、こうした新しい時代に必要な能力は、幼児期にたっぷりと遊びの時間をかけることで育まれます。ファーストラーニングでは、子どもの発達段階に応じたプログラムと子どもの興味分野に基づく環境設定、ミュージック&amp;ムーブメント、アート、ドラマチックプレイなどの楽しいアクティビティ（遊び）で、小さなお子様の成長をサポートします。プリスクール（就園準備クラス）、Ｍ＆Ｍクラス（幼児英語教室）、キンダースクール（幼稚園児クラス）の3つのプログラムを通して、創造性や考える力を身につけ、子どもたちの積極的な学習姿勢を育んでいきたいと考えています。</p>
-        </div>
-        <div id="side" class="col-xs-12" style="text-align: center;">
-          <iframe class="youtube-pc" style="margin-bottom:15px;" src="https://www.youtube.com/embed/sljYCAlAjdc?rel=0" width="100%" height="240" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-          <iframe class="youtube-sp" src="https://www.youtube.com/embed/sljYCAlAjdc?rel=0" width="100%" height="220" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-          <hr>
-          <a href="https://instagram.com/flkitaurawa/" target="_blank" rel="noopener"><img loading="lazy" src="https://www.firstlearning-kitaurawa.com/wp-content/uploads/2021/02/instagram_logo.png" width="180" height="50" alt=""/><br>
-          <img loading="lazy" src="https://www.firstlearning-kitaurawa.com/wp-content/uploads/2024/07/index-instagram.png" width="" height="" alt="" class="img-responsive"/><br>
-          </a><!--[instagram-feed feed=1]--> 
+  </div>
+  <section style="background-color:var(--bg-gray);padding:48px 16px;margin-top:0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 bg-white-round" data-path="images/"> <img class="img-responsive" src="images/indexConcept.gif" alt="私たちのカリキュラムの目標は、子どもたちが熱意にあふれる意欲的な学習者になることです。" />
+          <p><img loading="lazy" style="padding-right: 5px; float: left;" src="images/treeTopConcept01.gif" alt="" width="52" height="65" />考える力、感情表現の豊かさ、自ら問題解決する力、タフネス、そして創造性、こうした新しい時代に必要な能力は、幼児期にたっぷりと遊びの時間をかけることで育まれます。ファーストラーニングでは、子どもの発達段階に応じたプログラムと子どもの興味分野に基づく環境設定、ミュージック&amp;ムーブメント、アート、ドラマチックプレイなどの楽しいアクティビティ（遊び）で、小さなお子様の成長をサポートします。プリスクール（就園準備クラス）、Ｍ＆Ｍクラス（幼児英語教室）、キンダースクール（幼稚園児クラス）の3つのプログラムを通して、創造性や考える力を身につけ、子どもたちの積極的な学習姿勢を育んでいきたいと考えています。</p>
         </div>
       </div>
-      <div id="indexLower">
-        <div id="topFeature" class="col-xs-12">
-          <h2> <img class="img-responsive" src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/indexFeature.gif" alt="プログラムとサービスの特徴" /> </h2>
-          <ol class="number">
-            <li class="number01">アメリカン・ラーニングシステム</li>
-            <li class="number02">子どもの発達段階に応じたプログラム</li>
-            <li class="number03">子どもの興味分野に基づく環境設定</li>
-            <li class="number04">専門のティーチャーによる学習サポート</li>
-            <li class="number05">幼児教育の情報提供と育児カウンセリング</li>
-          </ol>
+      <div class="row">
+        <div class="col-12 col-lg-4" style="padding-left:0;">
+          <div class="bg-white-round">
+            <h2> <img class="img-responsive" src="images/indexFeature.gif" alt="プログラムとサービスの特徴" /> </h2>
+            <ol class="number" style="margin-bottom: 0;">
+              <li class="number01">アメリカン・ラーニングシステム</li>
+              <li class="number02">子どもの発達段階に応じたプログラム</li>
+              <li class="number03">子どもの興味分野に基づく環境設定</li>
+              <li class="number04">専門のティーチャーによる学習サポート</li>
+              <li class="number05">幼児教育の情報提供と育児カウンセリング</li>
+            </ol>
+          </div>
         </div>
-        <div id="topNetwork" class="col-xs-12">
-          <h2> <img class="img-responsive" src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/indexNetwork.gif" alt="アメリカのネットワーク" /> </h2>
-          <p style="margin-top: 15px; line-height: 1.7em;">ファーストラーニングは、幼児教育の専門会社ラーニングネットワークを通して、アメリカ幼児教育界と強いネットワークを結んでいます。 <br />
-            全米で最も高い支持を集めるティーチングノウハウ供給会社「ティーチング・ストラテジィズ」、全米３００万人の子どもたちに親しまれる音楽教材供給会社 <br class="hidden-xs" />
-            <img loading="lazy" style="float: right;" src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/logo_Larning.gif" alt="ラーニングネットワーク" width="84" height="75" />「キンボ・エデュケーショナル」、チャイルドケアの人材育成機関ＣＣＳ（チャイルドケア・ソリューション）などがファーストラーニングを支援しています。 <a style="color: #00c; font-weight: bold;" href="http://www.learningnetwork.jp/" target="_blank" rel="noopener">http://www.learningnetwork.co.jp/</a> </p>
+        <div class="col-12 col-lg-8" style="padding-left:0;">
+          <div class="bg-white-round">
+            <h2> <img class="img-responsive" src="images/indexNetwork.gif" alt="アメリカのネットワーク" /> </h2>
+            <p style="margin-top: 15px; line-height: 1.7em;">ファーストラーニングは、幼児教育の専門会社ラーニングネットワークを通して、アメリカ幼児教育界と強いネットワークを結んでいます。 <br />
+              全米で最も高い支持を集めるティーチングノウハウ供給会社「ティーチング・ストラテジィズ」、全米３００万人の子どもたちに親しまれる音楽教材供給会社 <br class="hidden-xs" />
+              <img loading="lazy" style="float:left;margin-right:8px;" src="images/logo_Larning.gif" alt="ラーニングネットワーク" width="84" height="75" />「キンボ・エデュケーショナル」、チャイルドケアの人材育成機関ＣＣＳ（チャイルドケア・ソリューション）などがファーストラーニングを支援しています。<br>
+              <a style="color: #00c; font-weight: bold;" href="http://www.learningnetwork.jp/" target="_blank" rel="noopener">http://www.learningnetwork.co.jp/</a> </p>
+          </div>
         </div>
-        <div id="topCurriculum" class="col-xs-12">
-          <h2> <img class="img-responsive" src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/indexCurriculumH2.gif" alt="「クリエイティブ・カリキュラム」とは？" /> </h2>
-          <p style="line-height: 1.7em;"> <img loading="lazy" class="alignright hidden-xs" src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/indexCurriculumBook.gif" alt="Creative Curriculum" width="110" height="140"
-          /> <img class="img-responsive" src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/indexCurriculumH4.gif" alt="アメリカ幼児教育界における最もクォリティの高いカリキュラム" /> <img loading="lazy" class="visible-xs-inline alignright" src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/indexCurriculumBook.gif" alt="Creative Curriculum" width="110"
-            height="140" /> <br />
-            米国ティーチング・ストラテジィズ社による「クリエイティブ・カリキュラム&reg;」は、米国幼児教育界における最も質の高いカリキュラムとして広く普及しています。政府プロジェクトのヘッドスタート、米軍の教育部門、プリスクール、「キンダーケア」「ブライトホライゾンズ・ファミリーソリューション」等の民間のチャイルドケアセンターで、コア・カリキュラムとして適用され、高い評価を得ています。 </p>
-          <div class="curriculum">
-            <div style="background-color: #7c61ff;">
-              <h3>1. カリキュラムのゴール</h3>
-              <ul>
-                <li>子どもたちを、積極的かつ創造的に探求し、自分のアイディアを試して考えを明らかにするようなタイプに育てます。</li>
-                <li>子どもたちが自立し、自信をもった好奇心あふれる意欲的な学習者になるのを手助けします。</li>
-              </ul>
+      </div>
+      <div class="row">
+        <div class="col-12 bg-white-round">
+          <h2> <img class="img-responsive" src="images/indexCurriculumH2.gif" alt="「クリエイティブ・カリキュラム」とは？" /> </h2>
+          <h3><img class="img-responsive" src="images/indexCurriculumH4.gif" alt="アメリカ幼児教育界における最もクォリティの高いカリキュラム" /></h3>
+          <p style="line-height: 1.7em;"> <img loading="lazy" class="alignright" src="images/indexCurriculumBook.gif" alt="Creative Curriculum" width="110" height="140"
+          /> 米国ティーチング・ストラテジィズ社による「クリエイティブ・カリキュラム&reg;」は、米国幼児教育界における最も質の高いカリキュラムとして広く普及しています。政府プロジェクトのヘッドスタート、米軍の教育部門、プリスクール、「キンダーケア」「ブライトホライゾンズ・ファミリーソリューション」等の民間のチャイルドケアセンターで、コア・カリキュラムとして適用され、高い評価を得ています。 </p>
+          <div class="row curriculum" style="clear:both;">
+            <div class="col-lg-4">
+              <div style="background-color: #7c61ff;">
+                <h3>1. カリキュラムのゴール</h3>
+                <ul>
+                  <li>子どもたちを、積極的かつ創造的に探求し、自分のアイディアを試して考えを明らかにするようなタイプに育てます。</li>
+                  <li>子どもたちが自立し、自信をもった好奇心あふれる意欲的な学習者になるのを手助けします。</li>
+                </ul>
+              </div>
             </div>
-            <div style="background-color: #ff5e8c;">
-              <h3>2. 子どもの興味分野に基づく環境設定（インタレストエリア）</h3>
-              <ul>
-                <li>子どもの興味分野に基づくアクティビティによって区分けされ、発達段階に適した豊富なマテリアル（玩具・教材）が整った環境をインタレストエリアと呼びます。</li>
-                <li>インタレストエリアには、子どもの自立心や意思決定能力を育み、遊びや人との積極的な関わりを促進する効果があります。</li>
-              </ul>
+            <div class="col-lg-4">
+              <div style="background-color: #ff5e8c;">
+                <h3>2. 子どもの興味分野に基づく環境設定（インタレストエリア）</h3>
+                <ul>
+                  <li>子どもの興味分野に基づくアクティビティによって区分けされ、発達段階に適した豊富なマテリアル（玩具・教材）が整った環境をインタレストエリアと呼びます。</li>
+                  <li>インタレストエリアには、子どもの自立心や意思決定能力を育み、遊びや人との積極的な関わりを促進する効果があります。</li>
+                </ul>
+              </div>
             </div>
-            <div class="last" style="background-color: #02d230;">
-              <h3>3. 子どもへの語りかけ（オープンエンディド・クェスチョン）</h3>
-              <ul>
-                <li>唯一絶対の正しい答えを求めないオープンエンディド・クェスチョンを行うことで、子どもたちはリスクを冒して何かを言ったり行ったりするようになり、やがてクリエイティブ（創造的）になっていきます。</li>
-              </ul>
+            <div class="col-lg-4">
+              <div style="background-color: #02d230;">
+                <h3>3. 子どもへの語りかけ（オープンエンディド・クェスチョン）</h3>
+                <ul>
+                  <li>唯一絶対の正しい答えを求めないオープンエンディド・クェスチョンを行うことで、子どもたちはリスクを冒して何かを言ったり行ったりするようになり、やがてクリエイティブ（創造的）になっていきます。</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- end of #content --> 
-    <!-- end of sidebar --> 
+      <!-- end of #content --> 
+    </div>
   </section>
-</div>
-<!-- #wrapper -->
-<div id="back-top"><a href="#wrapper"><img id="pagetop" src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/footer_pagetop.png" alt="PAGETOP" /></a></div>
+  <!-- #main --> 
+</section>
 <footer>
-  <section id="footer-contact-area" style="background-color:#ffefdd;padding: 36px 0">
+  <section id="footer-contact-area" style="background-color:var(--bg-light);padding: 48px 0">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2 style="color:#ffb000;">CONTACT <small style="color:#222;font-weight:bold;">お問い合わせ</small></h2>
+          <h2>CONTACT <small>お問い合わせ</small></h2>
           <p>ご相談やご見学など、まずはお気軽にお問い合わせください。<br>
             無料体験も随時受付中です。</p>
         </div>
         <div class="col-md-6">
-          <p><strong style="font-size: 2em;"><i class="fa-solid fa-square-phone" style="font-size:2em;color:#ffb000;vertical-align: middle;"></i> 048-762-3739</strong> <br class="visible-sm">
-            (受付時間：月～金10:00～17:30)</p>
-          <p><a href="/contact"><img src="btn-contact.png" width="540" height="90" alt="" class="img-responsive"/></a></p>
+          <p><strong style="font-size: 2em;"><i class="fa-solid fa-square-phone" style="color: var(--primary);"></i> 048-762-3739</strong> (受付時間：月～金10:00～17:30)</p>
+          <p><a href="/contact" class="btn btn-normal" style="font-size: 1.5em;"><i class="fa-solid fa-envelope"></i> お問い合わせフォームはこちらから</a></p>
         </div>
       </div>
     </div>
   </section>
-  <section id="footer-area" style="padding: 36px 0">
+  <section id="footer-area">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <h4>ファーストラーニング北浦和</h4>
+        <aside class="col-md-6">
+          <h4>FLKU ファーストラーニング北浦和</h4>
           <p>〒338-0012 埼玉県さいたま市中央区大戸5-23-3 <br class="visible-xs" />
             サンカーザトーレ1F<br>
             TEL：048-762-3739<br>
             E-mail： <a href="mailto:&#107;&#105;&#116;&#97;&#117;&#114;&#97;&#119;&#97;&#64;&#102;&#105;&#114;&#115;&#116;&#108;&#101;&#97;&#114;&#110;&#105;&#110;&#103;&#46;&#106;&#112;">&#107;&#105;&#116;&#97;&#117;&#114;&#97;&#119;&#97;&#64;&#102;&#105;&#114;&#115;&#116;&#108;&#101;&#97;&#114;&#110;&#105;&#110;&#103;&#46;&#106;&#112;</a></p>
-        </div>
+        </aside>
         <div class="col-md-6">
-          <p class="text-right"><a href="http://www.firstlearning.jp/" target="_blank"><img src="https://www.firstlearning-kitaurawa.com/wp-content/themes/fl-kitaurawa/images/fotter_logo.gif" width="225" height="67" alt="FirstLearning" title="ファーストラーニングのホームページはこちら"></a><br>
-            Copyright &copy; Learning Network. All Rights Reserved.</p>
+          <p id="copyright"><a href="http://www.firstlearning.jp/" target="_blank"><img src="images/fotter_logo.gif" width="225" height="67" alt="FirstLearning" title="ファーストラーニングのホームページはこちら"></a><br>
+            &copy; Learning Network. All Rights Reserved.</p>
         </div>
       </div>
+      <!-- end of footer-outer-block --> 
     </div>
-  </section>
-  <!-- end of footer-outer-block -->
-  
   </section>
   <!-- end of footer-area --> 
 </footer>
+<p id="page-top"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></p>
+</div><!-- #wrapper -->
 <script>
 $(function () {
   $(".index_program").on({
@@ -283,6 +366,6 @@ $(function () {
 <script type="text/javascript">
 var sbiajaxurl = "https://www.firstlearning-kitaurawa.com/wp-admin/admin-ajax.php";
 </script> 
-<script type='text/javascript' src='https://www.firstlearning-kitaurawa.com/wp-includes/js/wp-embed.min.js?ver=5.6.14' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://www.firstlearning-kitaurawa.com/wp-includes/js/wp-embed.min.js?ver=5.6.14' id='wp-embed-js'></script> 
 </body>
 </html>
